@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  margin: 0;
+}
+
+main h1 {
+  margin: 0 auto 0 auto;
+}
+
+main h1 {
+  font-size: 45px;
+  margin: 20px auto 40px 0;
+  font-weight: bold;
+  color: rgb(233, 131, 45);
+}
+
+#hero ul {
+  width: 700px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hero li {
+  background-color: rgb(228, 200, 173);
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(44, 44, 44);
+  overflow: hidden;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+#hero li img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#hero li h2 {
+  margin: 10px 0 20px 0;
+  font-size: 22px;
+}
+
+#hero li a {
+  text-decoration: none;
+  background-color: rgb(233, 131, 45);
+  padding: 10px;
+  border-radius: 3px;
+  color: rgb(253, 226, 178);
+}
