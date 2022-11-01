@@ -45,7 +45,7 @@ a {
 }
 
 @media (max-width: 48rem) {
-  #main-header ul {
-    visibility: hidden;
+  #main-header nav {
+    display: none;
   }
 }
